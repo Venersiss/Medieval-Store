@@ -60,7 +60,7 @@ public class Venersis {
             
             if (J.equals(I)  ) {
             	System.out.println("\n" + "1:" + d + "\n" + "\n" + "2:" + e + "\n" + "\n" + "3:" + f + "\n" + "\n" + "4:" + g + "\n" + "\n" + "5:" + h + "\n");
-            	System.out.println("We have A Special Promo Today Adventurer!"+"\n"+"If You buy 2 Items you get 10 healing potions!"+"\n"+"If you buy 3 Items you get 10 healing potions and 5 mana potions"+"\n"+"If you buy 4 items you get the 5th Item for free!"+"\n"+"If you buy 5 items you only pay half the Price!");
+            	System.out.println("We have A Special Promo Today Adventurer!"+"\n"+"If You buy 2 Items you get 10 healing potions!"+"\n"+"If you buy 3 Items you get 10 healing potions and 5 mana potions!"+"\n"+"If you buy 4 items you get the 5th Item for free!"+"\n"+"If you buy 5 items you only pay half the Price!");
             	System.out.println("\n");
             	System.out.println("We Also Give Discounts To members of the Asura Adventurers Guild Depending on your rank"+"\n"+"If you are Rank 3 you get 10% discount"+"\n"+"If you are Rank 2 you get 20% discount "+"\n"+"If you are rank 1 you get 30% discount ");
             	System.out.println("\n");
@@ -73,7 +73,7 @@ public class Venersis {
                         break;
 
                     case 2:
-                        System.out.println("The Almighty Dragon Slayer Bow" + "6000 gold"+"\n" +"\n" + "It is once used by the King of Elves while defending their kingdom from the invading dragons");
+                        System.out.println("The Almighty Dragon Slayer Bow" +"\n" +"6000 gold"+"\n" +"\n" + "It is once used by the King of Elves while defending their kingdom from the invading dragons");
                         System.out.println("\n" + "Attack 200  " + "\n" + "Defense  30 " + "\n" + "Agility  50 ");
                         break;
                     case 3:
@@ -81,13 +81,13 @@ public class Venersis {
                         System.out.println("\n" + "It can Heal all types of wounds and cleanse all debuff");
                         break;
                     case 4:
-                        System.out.println("The Unmoving Shield of the Great Hermit" +"6500 gold"+"\n" + "\n" + "(Used by the Great Hermit in his early days, it was the shield he used to hone his skills which in turn leaded him to ascension)");
+                        System.out.println("The Unmoving Shield of the Great Hermit" +"\n"+"6500 gold"+"\n" + "\n" + "(Used by the Great Hermit in his early days, it was the shield he used to hone his skills which in turn leaded him to ascension)");
                         System.out.println("\n" + "Attack 30  " + "\n" + "Defense  200 " + "\n" + "Agility  20 ");
                         break;
                     case 5:
-                        System.out.println("Ring of the Celestial King(Fragment)" +"10000 gold"+"\n" + "\n" + "Legend says that it was once the ring used by the celestial king while creating the universe, it hold a huge amount of power");
+                        System.out.println("Ring of the Celestial King(Fragment)" +"10000 gold"+"\n" + "\n" + "Legend says that it was once the ring used by the celestial king while creating the universe, it holds a huge amount of power");
                         System.out.println("\n" + "Attack 90(locked)  " + "\n" + "Defense  120(locked) " + "\n" + "Agility  90(locked) " + "\n");
-                        System.out.println("(Collect the missing pieces to unlocked the hidden attributes of the ring and experience the almight power of the creator)");
+                        System.out.println("(Collect the missing pieces to unlocked the hidden attributes of the ring and experience the almighty power of the creator)");
                 }
                
             
@@ -99,6 +99,8 @@ public class Venersis {
         
         if (J.equals(c)) {
             System.out.println("Have you chosen your desired item Adventurer?" + "\n");
+            J=a.next();
+            if(J.equals(b)) {
             System.out.println("How many Item would you like to buy adventurer?"+"\n"+"(Limited to 5 items only)");
             
             x=a.nextInt();
@@ -2705,7 +2707,7 @@ public class Venersis {
             
             
             
-            
+        }
         }
     	
             }
